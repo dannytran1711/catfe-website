@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#382214">
+  <meta name="description" content="Ghé thiên đường mèo CATFE tại Sài Gòn. Buffet đồ ăn vặt, nước uống và thời gian bên mèo không giới hạn. Chọn chi nhánh gần bạn.">
+  <title>CATFE — Thiên đường mèo giữa Sài Gòn</title>
+  <link rel="stylesheet" href="./assets/fonts.css">
+  <link rel="icon" type="image/png" href="./assets/logo.png">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Đến nội dung chính</a>
+  <header class="site-header">
+    <a class="brand-logo" href="#" aria-label="CATFE"><img src="./assets/logo.png" alt="CATFE — Cat Café" width="516" height="150"></a>
+    <nav class="desktop-nav" aria-label="Menu">
+      <a href="#experience" data-i18n="navExperience">Nhà có gì vui?</a>
+      <a href="#cats" data-i18n="navCats">Gặp các bé</a>
+      <a href="#care" data-i18n="navCare">Thương mèo đúng cách</a>
+    </nav>
+    <div class="nav-right">
+      <div class="language-switch" role="group" aria-label="Language / Ngôn ngữ">
+        <button type="button" data-lang="vi" aria-pressed="true">VI</button>
+        <span aria-hidden="true">/</span>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="button small pink header-cta" href="#visit" data-i18n="navVisit">Ghé chơi nhé!</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Menu"><span></span><span></span></button>
+    </div>
+  </header>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile menu" hidden>
+    <a href="#experience" data-i18n="navExperience">Nhà có gì vui?</a>
+    <a href="#cats" data-i18n="navCats">Gặp các bé</a>
+    <a href="#care" data-i18n="navCare">Thương mèo đúng cách</a>
+    <a href="#visit" data-i18n="navVisit">Ghé chơi nhé!</a>
+  </nav>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-star" aria-hidden="true">✳</span><span data-i18n="heroEyebrow">MỘT CHÚT SÀI GÒN. RẤT NHIỀU MÈO.</span></p>
+        <h1 id="hero-title"><span data-i18n="heroLine1">Lạc vào</span><br><span class="pink-text" data-i18n="heroLine2">thiên đường</span><br><span class="last-line"><span data-i18n="heroLine3">mèo.</span><span class="hero-asterisk" aria-hidden="true">✳</span></span></h1>
+        <p class="hero-description" data-i18n="heroDescription">Một chiếc ghế êm. Một bé mèo vừa đi ngang. Và cả buổi thảnh thơi để làm quen — chẳng cần nhìn đồng hồ.</p>
+        <div class="hero-actions"><a class="button yellow magnetic" href="#visit" data-i18n="heroCta">Hẹn một buổi với mèo</a><a class="text-link" href="#cats" data-i18n="heroSecondary">Làm quen trước nha</a></div>
+        <div class="hero-note"><span class="mini-icon" aria-hidden="true">∞</span><span data-i18n="heroNote">Buffet đã gồm trong vé · Không giới hạn thời gian</span></div>
+      </div>
+      <div class="hero-visual" data-tilt>
+        <div class="photo-orbit orbit-one" aria-hidden="true"></div><div class="photo-orbit orbit-two" aria-hidden="true"></div>
+        <div class="hero-photo"><img src="./assets/hero.jpg" alt="Một bé mèo tại CATFE" data-alt="heroAlt" fetchpriority="high" width="900" height="1100"></div>
+        <div class="floating-note hello-note"><span data-i18n="helloNote">meo. bạn tới rồi!</span><span aria-hidden="true">♡</span></div>
+        <div class="price-sticker"><span data-i18n="priceFrom">MỘT BUỔI ĐẦY MÈO TỪ</span><strong>109<span>k</span></strong><span data-i18n="pricePerson">đ / người</span></div>
+        <span class="photo-label" data-i18n="realCats">Những gương mặt thật tại CATFE</span>
+      </div>
+      <div class="hero-bottom"><span data-i18n="heroSince">CÙNG MÈO LỚN LÊN TỪ 2016</span><span data-i18n="heroCity">3 CHI NHÁNH · TP. HỒ CHÍ MINH</span><button id="motion-toggle" type="button" aria-pressed="false" data-i18n="motionPause">Tạm dừng chuyển động</button></div>
+    </section>
+    <div class="marquee" aria-hidden="true"><div class="marquee-track"><span data-i18n="ribbon">mèo ở đây · bạn ở lại · buffet đã sẵn · chẳng vội đi đâu</span><b>✳</b><span data-i18n="ribbon">mèo ở đây · bạn ở lại · buffet đã sẵn · chẳng vội đi đâu</span><b>✳</b></div></div>
+
+    <section class="section experience" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading reveal"><p class="eyebrow" data-i18n="experienceEyebrow">MỘT CHIẾC VÉ. MỘT BUỔI THẬT THẢNH THƠI.</p><h2 id="experience-title" data-i18n="experienceTitle">Ở đây, cuộc hẹn<br>không tính bằng giờ.</h2><p class="section-intro" data-i18n="experienceIntro">Ngồi lâu thêm một chút. Đợi một bé mèo bước lại gần. Những điều dễ thương có nhịp riêng của chúng.</p></div>
+      <div class="benefit-grid">
+        <article class="benefit reveal"><div class="benefit-top"><span class="benefit-symbol">∞</span><span>01</span></div><h3 data-i18n="benefit1Title">Chơi cùng mèo,<br>không nhìn đồng hồ.</h3><p data-i18n="benefit1Body">Vé không giới hạn thời gian trong giờ hoạt động. Bạn có thể ở lại đến khi buổi hẹn với mèo thật trọn vẹn.</p></article>
+        <article class="benefit reveal"><div class="benefit-top"><span class="benefit-symbol">✳</span><span>02</span></div><h3 data-i18n="benefit2Title">Buffet đã có.<br>Bạn cứ thong thả.</h3><p data-i18n="benefit2Body">Đồ ăn vặt và nước uống đã gồm trong vé. Tự chọn món mình thích, tìm một góc ngồi và tận hưởng.</p></article>
+        <article class="benefit reveal"><div class="benefit-top"><span class="benefit-symbol">♡</span><span>03</span></div><h3 data-i18n="benefit3Title">Một chiếc vòng nhỏ.<br>Một cách thương riêng.</h3><p data-i18n="benefit3Body">Màu vòng cổ giúp bạn nhận biết nhóm tuổi và những bé cần được tiếp cận nhẹ nhàng hơn.</p><a class="text-link dark-link" href="#care" data-i18n="benefit3Link">Đọc ngôn ngữ vòng cổ</a></article>
+      </div>
+    </section>
+
+    <section class="section cats-section" id="cats" aria-labelledby="cats-title">
+      <div class="section-heading split-heading reveal"><div><p class="eyebrow" data-i18n="catsEyebrow">NHÂN VẬT CHÍNH CỦA BUỔI HẸN</p><h2 id="cats-title" data-i18n="catsTitle">Dễ thương có thật.<br>Tinh nghịch cũng vậy.</h2></div><p class="section-intro" data-i18n="catsIntro">Một ánh mắt tò mò, một bộ đồ ngộ nghĩnh, một khoảnh khắc thật gần. Ảnh từ chính ngôi nhà CATFE.</p></div>
+      <div class="cat-gallery">
+        <button class="cat-card card-one reveal" type="button" data-photo="hero.jpg" data-caption="cat1Caption"><span class="cat-image"><img src="./assets/hero.jpg" alt="Bé mèo Bengal ở CATFE đang ngước nhìn" data-alt="cat1Alt" loading="lazy" width="900" height="1200"><span class="photo-expand" aria-hidden="true">＋</span><span class="photo-chip" data-i18n="cat1Chip">Ánh mắt tò mò</span></span><span class="cat-caption" data-i18n="cat1Caption">Ai vừa đi ngang thế?</span></button>
+        <button class="cat-card card-two reveal" type="button" data-photo="mischief.jpg" data-caption="cat2Caption"><span class="cat-image"><img src="./assets/mischief.jpg" alt="Bé mèo CATFE trong bộ đồ vịt màu vàng" data-alt="cat2Alt" loading="lazy" width="800" height="1200"><span class="photo-expand" aria-hidden="true">＋</span><span class="photo-chip yellow-chip" data-i18n="cat2Chip">Một chút ngộ nghĩnh</span></span><span class="cat-caption" data-i18n="cat2Caption">Mèo đây. Vịt là áo thôi.</span></button>
+        <button class="cat-card card-three reveal" type="button" data-photo="cuddles.jpg" data-caption="cat3Caption"><span class="cat-image"><img src="./assets/cuddles.jpg" alt="Một vị khách ngồi cùng mèo Sphynx tại CATFE" data-alt="cat3Alt" loading="lazy" width="675" height="1200"><span class="photo-expand" aria-hidden="true">＋</span><span class="photo-chip cream-chip" data-i18n="cat3Chip">Một phút gần nhau</span></span><span class="cat-caption" data-i18n="cat3Caption">Lịch trình: ngồi thêm chút nữa.</span></button>
+      </div>
+      <div class="roster-strip reveal"><div><h3 data-i18n="rosterTitle">Nhà Tân Phú có những ai?</h3><p data-i18n="rosterBody">Dola thân thiện. Alice thích ngủ. Goblin ham chơi. Mỗi bé một tính, mỗi lần ghé một niềm vui.</p></div><button class="button outline" id="roster-button" type="button" data-i18n="rosterButton">Gặp cả gia đình</button></div>
+    </section>
+
+    <section class="care-section" id="care" aria-labelledby="care-title">
+      <div class="care-story reveal"><p class="eyebrow" data-i18n="careEyebrow">THIÊN ĐƯỜNG LÀ KHI MÈO CŨNG THẤY VUI</p><h2 id="care-title" data-i18n="careTitle">Thương mèo.<br>Theo cách của mèo.</h2><p data-i18n="careIntro">Có bé muốn chơi. Có bé cần ngủ. CATFE dùng màu vòng cổ để bạn hiểu các bé hơn, từ lần đầu gặp gỡ.</p><div class="story-stamp"><strong>2016</strong><span data-i18n="careSince">Bắt đầu một mái nhà.<br>Tiếp tục chăm sóc cả khi mèo đã già.</span></div><p class="care-small" data-i18n="careLegacy">Với những bé mèo lớn tuổi, CATFE duy trì việc chăm sóc đến cuối đời. Một mái nhà không kết thúc khi các bé thôi tinh nghịch.</p></div>
+      <div class="collar-guide reveal"><div class="guide-heading"><span class="guide-star" aria-hidden="true">✳</span><div><h3 data-i18n="collarTitle">Chiếc vòng này nói gì?</h3><p data-i18n="collarHint">Chạm một màu để làm quen đúng cách.</p></div></div><div class="collar-options" role="group" aria-label="Collar colours / Màu vòng cổ">
+        <button type="button" class="collar-button selected" data-collar="pink" aria-pressed="true"><span style="--collar:#f28ab5"></span><span data-i18n="colorPink">Hồng</span></button>
+        <button type="button" class="collar-button" data-collar="yellow" aria-pressed="false"><span style="--collar:#f4c34b"></span><span data-i18n="colorYellow">Vàng</span></button>
+        <button type="button" class="collar-button" data-collar="red" aria-pressed="false"><span style="--collar:#e96664"></span><span data-i18n="colorRed">Đỏ</span></button>
+        <button type="button" class="collar-button" data-collar="white" aria-pressed="false"><span style="--collar:#fff"></span><span data-i18n="colorWhite">Trắng</span></button>
+        <button type="button" class="collar-button" data-collar="green" aria-pressed="false"><span style="--collar:#6db68d"></span><span data-i18n="colorGreen">Xanh lá</span></button>
+        <button type="button" class="collar-button" data-collar="blue" aria-pressed="false"><span style="--collar:#74a6e5"></span><span data-i18n="colorBlue">Xanh dương</span></button>
+      </div><div id="collar-detail" class="collar-detail" aria-live="polite"><span class="collar-age" id="collar-age">DƯỚI 5 TUỔI</span><h4 id="collar-heading">Tò mò, hiếu động, thích khám phá.</h4><p id="collar-description">Để bé chủ động đến gần. Không đuổi bắt và không cho bé ăn đồ của người.</p></div><div class="care-rules"><span data-i18n="careRule1">Tay sạch</span><span data-i18n="careRule2">Nói khẽ</span><span data-i18n="careRule3">Không flash</span><span data-i18n="careRule4">Để mèo nghỉ</span></div></div>
+    </section>
+
+    <section class="section visit-section" id="visit" aria-labelledby="visit-title">
+      <div class="section-heading reveal"><p class="eyebrow" data-i18n="visitEyebrow">CHỌN MỘT NHÀ. HẸN MỘT BUỔI.</p><h2 id="visit-title" data-i18n="visitTitle">Mèo ở gần bạn<br>hơn bạn nghĩ.</h2><p class="section-intro" data-i18n="visitIntro">Ba ngôi nhà tại Sài Gòn. Chọn nơi thuận tiện, xem vé và nhắn CATFE trước khi ghé.</p></div>
+      <div class="visit-layout reveal"><div class="branch-list" role="group" aria-label="Branches / Chi nhánh"><button type="button" class="branch-option selected" data-branch="tanphu" aria-pressed="true"><span class="branch-number">01</span><span><strong>AEON Tân Phú</strong><small data-i18n="branchTPLabel">Tầng trệt · Cổng L2 · PETEMO</small></span><span class="branch-selector" aria-hidden="true">✳</span></button><button type="button" class="branch-option" data-branch="binhtan" aria-pressed="false"><span class="branch-number">02</span><span><strong>AEON Bình Tân</strong><small data-i18n="branchBTLabel">Tầng trệt · G19A · PETEMO</small></span><span class="branch-selector" aria-hidden="true">✳</span></button><button type="button" class="branch-option" data-branch="estella" aria-pressed="false"><span class="branch-number">03</span><span><strong>Estella Place</strong><small data-i18n="branchESLabel">Tầng trệt · 88 Song Hành · Quận 2</small></span><span class="branch-selector" aria-hidden="true">✳</span></button><p class="closed-note" data-i18n="closedNote">Chi nhánh Quận 1 đã đóng từ 01/03/2026. Hẹn gặp bạn tại ba chi nhánh trên nhé.</p></div>
+        <article class="visit-ticket"><div class="ticket-head"><span data-i18n="ticketEyebrow">TẤM VÉ ĐẾN THIÊN ĐƯỜNG MÈO</span><span aria-hidden="true">✳</span></div><div class="ticket-main"><h3 id="branch-title">AEON Tân Phú</h3><p id="branch-address">Tầng trệt, cổng L2, khu PETEMO, AEON MALL Tân Phú.</p><div class="ticket-price"><strong id="branch-price">109.000<span>đ</span></strong><span data-i18n="ticketPerPerson">/ người</span></div><p id="branch-price-note">Áp dụng tất cả các ngày trong tuần.</p><div class="ticket-includes"><span data-i18n="ticketBuffet">Buffet đồ ăn vặt & nước uống</span><span data-i18n="ticketTime">Không giới hạn thời gian</span><span><span data-i18n="ticketHours">Giờ đón khách</span> <b>10:00–21:30</b></span></div></div><div class="ticket-bottom"><a class="button dark" href="https://www.facebook.com/catfevn/" target="_blank" rel="noopener noreferrer" data-i18n="ticketMessage">Nhắn CATFE trên Facebook</a><a id="branch-map" class="button outline" href="https://www.google.com/maps/search/?api=1&query=CATFE+AEON+MALL+Tan+Phu" target="_blank" rel="noopener noreferrer" data-i18n="ticketMap">Xem đường đi</a><button id="copy-address" class="text-link dark-link" type="button" data-i18n="copyAddress">Sao chép địa chỉ</button><p class="ticket-fine" data-i18n="ticketNote">Giá và giờ theo thông tin CATFE công bố. Nhắn quán để xác nhận trước chuyến đi, đặc biệt vào lễ, Tết.</p></div></article>
+      </div>
+    </section>
+
+    <section class="first-visit section" aria-labelledby="first-title"><div class="first-image reveal"><img src="./assets/together.jpg" alt="Khách thư giãn và chơi cùng mèo tại CATFE Tân Phú" data-alt="togetherAlt" loading="lazy" width="900" height="1200"><span class="first-image-note" data-i18n="firstPhotoNote">Tới chơi. Rồi thấy thân.</span></div><div class="first-content reveal"><p class="eyebrow" data-i18n="firstEyebrow">LẦN ĐẦU GHÉ NHÀ</p><h2 id="first-title" data-i18n="firstTitle">Cứ tới.<br>Tụi mình chỉ bạn.</h2><ol class="first-steps"><li><h3 data-i18n="step1Title">Chọn nhà, hỏi giờ.</h3><p data-i18n="step1Body">Chọn chi nhánh bạn muốn ghé. Nhắn quán nếu đi theo nhóm hoặc có yêu cầu riêng.</p></li><li><h3 data-i18n="step2Title">Nhận vé, nghe hướng dẫn.</h3><p data-i18n="step2Body">Nhân viên giúp bạn làm quen với không gian, buffet và quy tắc tương tác với mèo.</p></li><li><h3 data-i18n="step3Title">Ngồi xuống. Để mèo tới.</h3><p data-i18n="step3Body">Rửa tay, chọn góc ngồi và để các bé chủ động làm quen. Không vội, mình có cả buổi mà.</p></li></ol></div></section>
+
+    <section class="faq-section section" aria-labelledby="faq-title"><div class="faq-heading"><p class="eyebrow" data-i18n="faqEyebrow">MỘT CHÚT TRƯỚC KHI GHÉ</p><h2 id="faq-title" data-i18n="faqTitle">Bạn cứ hỏi.<br>Tụi mình ở đây.</h2><a href="https://zalo.me/0936908590" target="_blank" rel="noopener noreferrer" class="text-link dark-link" data-i18n="faqChat">Nhắn CATFE qua Zalo</a></div><div class="faq-list"><details><summary data-i18n="faq1Title">Vé đã bao gồm những gì?</summary><p data-i18n="faq1Body">Vé bao gồm vào khu mèo, buffet đồ ăn vặt và nước uống, cùng thời gian ở lại không giới hạn trong giờ hoạt động.</p></details><details><summary data-i18n="faq2Title">Có phải đặt chỗ trước không?</summary><p data-i18n="faq2Body">Bạn có thể nhắn CATFE để hỏi tình trạng chỗ ngồi, nhất là cuối tuần hoặc khi đi theo nhóm. Quán xác nhận trực tiếp qua Facebook hoặc Zalo.</p></details><details><summary data-i18n="faq3Title">Có thể bế hoặc cho mèo ăn không?</summary><p data-i18n="faq3Body">Hãy hỏi nhân viên và xem màu vòng cổ trước. Không bế khi bé đang ngủ, ăn, ẩn nấp hoặc chưa thoải mái. Không cho mèo ăn đồ của người.</p></details><details><summary data-i18n="faq4Title">Đi cùng trẻ nhỏ hoặc mang mèo riêng được không?</summary><p data-i18n="faq4Body">Nhắn chi nhánh trước để được hướng dẫn phù hợp. Trẻ nhỏ cần người lớn giám sát; mèo của khách cần đáp ứng quy định sức khỏe của quán.</p></details><details><summary data-i18n="faq5Title">Muốn tổ chức sinh nhật hoặc ghé theo nhóm?</summary><p data-i18n="faq5Body">Gửi CATFE chi nhánh, ngày dự kiến và số người. Quán sẽ trao đổi khả năng sắp xếp, mức giá và yêu cầu cụ thể trước khi xác nhận.</p></details></div></section>
+
+    <section class="closing"><span class="closing-star" aria-hidden="true">✳</span><p class="eyebrow" data-i18n="closingEyebrow">BỚT MỘT CHÚT VỘI. THÊM MỘT CHÚT MÈO.</p><h2 data-i18n="closingTitle">Một buổi thảnh thơi.<br>Một lòng đầy mèo.</h2><a class="button yellow magnetic" href="#visit" data-i18n="closingCta">Chọn nhà để ghé</a><span class="closing-small" data-i18n="closingSmall">Cà phê mèo CATFE · Sài Gòn · Từ 2016</span></section>
+  </main>
+  <footer class="site-footer"><div class="footer-main"><a class="brand-logo" href="#" aria-label="CATFE"><img src="./assets/logo.png" alt="CATFE — Cat Café" width="516" height="150"></a><p data-i18n="footerTagline">Thiên đường mèo.<br>Một nơi để thấy lòng mềm lại.</p><div class="footer-links"><a href="https://www.facebook.com/catfevn/" target="_blank" rel="noopener noreferrer">Facebook</a><a href="https://zalo.me/0936908590" target="_blank" rel="noopener noreferrer">Zalo</a><a href="tel:+84936908590">0936 90 85 90</a></div></div><div class="footer-bottom"><span>© 2026 CATFE</span><a href="https://www.catfe.vn/" target="_blank" rel="noopener noreferrer" data-i18n="footerUpdates">Thông tin từ CATFE</a><span data-i18n="footerLove">Thương mèo, thương cả lúc mèo cần yên.</span></div></footer>
+  <div class="mobile-visit-bar"><span data-i18n="mobilePrice">Một buổi cùng mèo từ 109k</span><a class="button yellow" href="#visit" data-i18n="navVisit">Ghé chơi nhé!</a></div>
+  <dialog id="photo-dialog" class="photo-dialog" aria-labelledby="photo-dialog-caption"><button type="button" class="dialog-close" data-i18n-aria="closeDialog" aria-label="Đóng">×</button><img id="dialog-image" src="./assets/hero.jpg" alt=""><div class="roster-details" id="roster-details" hidden><p class="eyebrow" data-i18n="rosterModalEyebrow">NHỮNG GƯƠNG MẶT Ở AEON TÂN PHÚ</p><h3 data-i18n="rosterModalTitle">Mỗi bé một tính.<br>Thương mỗi bé một kiểu.</h3><div class="roster-people"><article><strong>Dola</strong><span>Maine Coon</span><p data-i18n="dolaDescription">Dáng vẻ nổi bật, thân thiện và điềm đạm như một anh cả.</p></article><article><strong>Euro</strong><span>Maine Coon</span><p data-i18n="euroDescription">Biểu cảm hài hước, dễ gần và rất thích giao lưu.</p></article><article><strong>Alice</strong><span>Napoleon Munchkin</span><p data-i18n="aliceDescription">Nhỏ nhắn, thư thái, đặc biệt yêu những giấc ngủ.</p></article><article><strong>Goblin</strong><span>Napoleon Munchkin</span><p data-i18n="goblinDescription">Năng động, thích ăn và hào hứng tương tác.</p></article></div><p class="roster-more" data-i18n="rosterMore">Còn có Gohan, Lavie, Đậu, Saphire, Lily, Rainbow, Tom, Fanta, Choco, Chalki, Judy, Shi, Simon, Chin Chi, ChinE, Benz, Bảo Đen và Bảo Đốm.</p><a class="text-link dark-link" href="https://www.catfe.vn/vi/tin-tuc/thanh-vien-meo-catfe-aeon-mall-tan-phu.html" target="_blank" rel="noopener noreferrer" data-i18n="rosterSource">Xem hồ sơ gốc từ CATFE</a></div><p id="photo-dialog-caption"></p></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
