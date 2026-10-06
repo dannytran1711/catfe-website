@@ -1,0 +1,50 @@
+/* Portraits are the actual cats from CATFE's supplied member boards. */
+.residents-section{padding-top:12px}
+.residents-intro{display:flex;align-items:baseline;justify-content:space-between;gap:28px;border-bottom:1px solid var(--line);padding-bottom:24px;margin-bottom:50px}
+.residents-intro .breadcrumb{flex-shrink:0;margin:0}
+.residents-intro p{font-size:14px;max-width:520px}
+.resident-group+.resident-group{margin-top:64px}
+.resident-group-heading{display:flex;align-items:center;gap:16px;margin-bottom:27px}
+.resident-group-heading h2{font-size:clamp(25px,3vw,37px);letter-spacing:-.04em}
+.resident-group-heading>span{display:grid;place-items:center;min-width:32px;height:32px;background:var(--amber);border-radius:50%;font-size:13px;font-weight:900}
+.resident-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.resident-card{min-width:0;background:var(--paper);border:1px solid transparent;border-radius:24px;text-align:center;transition:transform .25s,border-color .25s,box-shadow .25s}
+.resident-card:hover,.resident-card:focus-within{transform:translateY(-5px);border-color:#b76a2840;box-shadow:0 12px 25px #3822140a}
+.resident-card>a{display:flex;align-items:center;flex-direction:column;height:100%;padding:27px 21px 24px}
+.resident-portrait-wrap{padding:10px;border:1px dashed #b76a2860;border-radius:50%;margin-bottom:6px;background:var(--cream)}
+.member-card .resident-portrait{width:128px;height:128px;max-width:100%;object-fit:cover;border-radius:50%;transition:transform .3s}
+.resident-card:hover .resident-portrait{transform:rotate(-4deg)}
+.resident-card h2{font-size:28px;margin:14px 0 5px;letter-spacing:-.04em;line-height:1.2}
+.resident-breed{color:var(--orange);font-size:11px;font-weight:800;margin-bottom:15px}
+.resident-card p{font-size:13px;line-height:1.75;flex:1}
+.resident-card a>.resident-more{display:flex;justify-content:center;font-size:11px;padding-top:13px;border-top:1px solid var(--line);width:100%;margin-top:20px;gap:8px;color:var(--brown)}
+.resident-more .arrow{width:17px;height:17px}
+.resident-note{display:flex;align-items:center;gap:18px;margin-top:48px;font-size:13px;background:var(--paper);padding:25px 28px;border-radius:18px}
+.resident-note>.paw{flex-shrink:0;width:30px;height:30px;color:var(--orange)}
+.resident-stack{display:flex;flex-shrink:0;padding-right:6px;min-width:125px}
+.resident-stack img{height:57px;width:57px;object-fit:cover;border:4px solid var(--cream);border-radius:50%;margin-right:-18px}
+.has-residents.member-callout{gap:18px;align-items:flex-start}
+.has-residents .resident-stack{margin-top:14px}
+.resident-profile{padding-top:45px}
+.resident-profile .profile-layout{grid-template-columns:.85fr 1.15fr;gap:70px;align-items:center}
+.resident-profile-photo{align-self:stretch;display:flex;align-items:center;justify-content:center;flex-direction:column;min-height:420px;padding:55px 28px;border-radius:220px 220px 24px 24px;background:var(--paper);text-align:center}
+.resident-profile-orbit{position:relative;width:240px;height:240px;max-width:100%;display:grid;place-items:center;border:1px dashed #b76a2860;border-radius:50%}
+.resident-profile-photo img.resident-portrait{width:170px;height:170px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 12px var(--cream)}
+.profile-paw{position:absolute;right:1px;bottom:7px;display:grid;place-items:center;background:var(--amber);border:7px solid var(--paper);width:64px;height:64px;border-radius:50%;transform:rotate(15deg)}
+.profile-paw .paw{width:29px;height:29px;color:var(--brown)}
+.resident-profile-photo>p{font-size:13px;margin-top:25px;max-width:250px}
+.resident-profile h1{font-size:clamp(48px,6vw,78px)}
+.resident-facts{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 28px}
+.resident-facts>span{padding:6px 12px;border:1px solid var(--line);border-radius:50px;font-size:11px;font-weight:800}
+.resident-personality h2,.resident-hello h3{font-size:17px;letter-spacing:0}
+.resident-personality .lead{margin:12px 0 27px;font-size:21px;line-height:1.65}
+.resident-hello{border-left:3px solid var(--amber);padding:2px 0 2px 19px;margin-bottom:28px}
+.resident-hello p{font-size:13px;margin-top:9px;line-height:1.8}
+.resident-friends{padding-top:5px}
+.resident-friends .resident-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:1100px){.resident-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.resident-profile .profile-layout{gap:40px}.has-residents.member-callout{display:block}.has-residents .resident-stack{margin:0 0 20px}}
+@media(max-width:760px){.resident-grid,.resident-friends .resident-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.residents-intro{display:block;margin-bottom:35px}.residents-intro p{margin-top:15px;font-size:13px}.resident-group+.resident-group{margin-top:42px}.resident-card>a{padding:22px 14px 18px}.resident-card h2{font-size:25px}.member-card .resident-portrait{width:110px;height:110px}.resident-card p{font-size:12px}.resident-breed{font-size:10px}.resident-profile .profile-layout{grid-template-columns:1fr;gap:32px}.resident-profile-photo{min-height:320px;padding:32px 20px;border-radius:170px 170px 22px 22px}.resident-profile-orbit{width:216px;height:216px}.resident-profile-photo img.resident-portrait{width:150px;height:150px}.resident-profile-photo>p{margin-top:16px}.resident-personality .lead{font-size:19px}.resident-note{padding:22px 20px;font-size:12px}.resident-friends .resident-card:last-child{grid-column:auto}.has-residents.member-callout{display:flex}.has-residents .resident-stack{margin-top:12px}.residents-section{padding-top:0}}
+@media(max-width:430px){.resident-grid,.resident-friends .resident-grid{gap:12px}.resident-card>a{padding:20px 12px 16px}.member-card .resident-portrait{width:94px;height:94px}.resident-portrait-wrap{padding:7px}.resident-card h2{font-size:23px}.resident-card p{font-size:12px}.resident-card a>.resident-more{font-size:10px;gap:5px}.has-residents.member-callout{display:block}.has-residents .resident-stack{margin:0 0 20px}.resident-group-heading h2{font-size:25px}.resident-profile{padding-top:30px}}
+@media(prefers-reduced-motion:reduce){.resident-card,.resident-portrait{transition:none!important}.resident-card:hover,.resident-card:focus-within,.resident-card:hover .resident-portrait{transform:none}}
+.motion-paused .resident-card,.motion-paused .resident-portrait{transition:none!important}
+.motion-paused .resident-card:hover,.motion-paused .resident-card:focus-within,.motion-paused .resident-card:hover .resident-portrait{transform:none}

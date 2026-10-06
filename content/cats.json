@@ -1,0 +1,920 @@
+{
+  "tan-phu": [
+    {
+      "slug": "dolla",
+      "name": "Dolla",
+      "image": "members/tan-phu-dolla.webp",
+      "breed": {
+        "vi": "Maine Coon",
+        "en": "Maine Coon"
+      },
+      "group": "maine-coon",
+      "personality": {
+        "vi": "Đẹp trai, thân thiện và quấn người. Thích nằm lên đùi khách.",
+        "en": "Handsome, friendly and affectionate. Loves settling onto a guest’s lap."
+      },
+      "imageAlt": {
+        "vi": "Dolla — thành viên CATFE Tân Phú",
+        "en": "Dolla — CATFE Tân Phú resident"
+      },
+      "sex": "male"
+    },
+    {
+      "slug": "euro",
+      "name": "Euro",
+      "image": "members/tan-phu-euro.webp",
+      "breed": {
+        "vi": "Maine Coon",
+        "en": "Maine Coon"
+      },
+      "group": "maine-coon",
+      "personality": {
+        "vi": "Siêu ham ăn, thân thiện. Hay liếm lông cho các bạn mèo khác.",
+        "en": "A friendly food lover who often grooms the other cats."
+      },
+      "imageAlt": {
+        "vi": "Euro — thành viên CATFE Tân Phú",
+        "en": "Euro — CATFE Tân Phú resident"
+      },
+      "sex": "male"
+    },
+    {
+      "slug": "gohan",
+      "name": "Gohan",
+      "image": "members/tan-phu-gohan.webp",
+      "breed": {
+        "vi": "Maine Coon",
+        "en": "Maine Coon"
+      },
+      "group": "maine-coon",
+      "personality": {
+        "vi": "Ở đâu có đồ ăn là có mặt. Thân thiện, dễ tính.",
+        "en": "Wherever there’s food, Gohan is there. Friendly and easygoing."
+      },
+      "imageAlt": {
+        "vi": "Gohan — thành viên CATFE Tân Phú",
+        "en": "Gohan — CATFE Tân Phú resident"
+      },
+      "sex": "male"
+    },
+    {
+      "slug": "lavie",
+      "name": "Lavie",
+      "image": "members/tan-phu-lavie.webp",
+      "breed": {
+        "vi": "Maine Coon",
+        "en": "Maine Coon"
+      },
+      "group": "maine-coon",
+      "personality": {
+        "vi": "Tổng tài lạnh lùng. Hơi khó gần, nhưng rất ham ăn.",
+        "en": "The cool, aloof boss of the house. Food is a definite soft spot."
+      },
+      "imageAlt": {
+        "vi": "Lavie — thành viên CATFE Tân Phú",
+        "en": "Lavie — CATFE Tân Phú resident"
+      },
+      "sex": "male"
+    },
+    {
+      "slug": "dau",
+      "name": "Dâu",
+      "image": "members/tan-phu-dau.webp",
+      "breed": {
+        "vi": "Napoleon",
+        "en": "Napoleon"
+      },
+      "group": "short-legs",
+      "personality": {
+        "vi": "Công chúa nhỏ xinh, thích ngủ.",
+        "en": "A little princess who loves her naps."
+      },
+      "imageAlt": {
+        "vi": "Dâu — thành viên CATFE Tân Phú",
+        "en": "Dâu — CATFE Tân Phú resident"
+      },
+      "sex": "female"
+    },
+    {
+      "slug": "alice",
+      "name": "Alice",
+      "image": "members/tan-phu-alice.webp",
+      "breed": {
+        "vi": "Napoleon",
+        "en": "Napoleon"
+      },
+      "group": "short-legs",
+      "personality": {
+        "vi": "Thân thiện, hòa đồng.",
+        "en": "Friendly and sociable."
+      },
+      "imageAlt": {
+        "vi": "Alice — thành viên CATFE Tân Phú",
+        "en": "Alice — CATFE Tân Phú resident"
+      },
+      "sex": "male"
+    },
+    {
+      "slug": "saphire",
+      "name": "Saphire",
+      "image": "members/tan-phu-saphire.webp",
+      "breed": {
+        "vi": "Napoleon",
+        "en": "Napoleon"
+      },
+      "group": "short-legs",
+      "personality": {
+        "vi": "Siêu thân thiện, thích nằm lên đùi khách.",
+        "en": "Super friendly and fond of a guest’s lap."
+      },
+      "imageAlt": {
+        "vi": "Saphire — thành viên CATFE Tân Phú",
+        "en": "Saphire — CATFE Tân Phú resident"
+      },
+      "sex": "male"
+    },
+    {
+      "slug": "fanta",
+      "name": "Fanta",
+      "image": "members/tan-phu-fanta.webp",
+      "breed": {
+        "vi": "Napoleon",
+        "en": "Napoleon"
+      },
+      "group": "short-legs",
+      "personality": {
+        "vi": "Siêu quấn người, thân thiện và hiền lành.",
+        "en": "Very affectionate, friendly and gentle."
+      },
+      "imageAlt": {
+        "vi": "Fanta — thành viên CATFE Tân Phú",
+        "en": "Fanta — CATFE Tân Phú resident"
+      },
+      "sex": "male"
+    },
+    {
+      "slug": "choco",
+      "name": "Choco",
+      "image": "members/tan-phu-choco.webp",
+      "breed": {
+        "vi": "Munchkin",
+        "en": "Munchkin"
+      },
+      "group": "short-legs",
+      "personality": {
+        "vi": "Hay lè lưỡi. Ngủ chảy cả nước miếng.",
+        "en": "Often pokes his tongue out. Sometimes even drools in his sleep."
+      },
+      "imageAlt": {
+        "vi": "Choco — thành viên CATFE Tân Phú",
+        "en": "Choco — CATFE Tân Phú resident"
+      },
+      "sex": "male"
+    },
+    {
+      "slug": "chiaki",
+      "name": "Chiaki",
+      "image": "members/tan-phu-chiaki.webp",
+      "breed": {
+        "vi": "Munchkin",
+        "en": "Munchkin"
+      },
+      "group": "short-legs",
+      "personality": {
+        "vi": "Gương mặt sầu đời, hơi nhát.",
+        "en": "A wonderfully wistful face and a slightly shy personality."
+      },
+      "imageAlt": {
+        "vi": "Chiaki — thành viên CATFE Tân Phú",
+        "en": "Chiaki — CATFE Tân Phú resident"
+      },
+      "sex": "female"
+    },
+    {
+      "slug": "lily",
+      "name": "Lily",
+      "image": "members/tan-phu-lily.webp",
+      "breed": {
+        "vi": "Anh lông dài",
+        "en": "British Longhair"
+      },
+      "group": "british",
+      "personality": {
+        "vi": "Ngọt ngào, dính người. Hay lè lưỡi.",
+        "en": "Sweet and affectionate. Often pokes her tongue out."
+      },
+      "imageAlt": {
+        "vi": "Lily — thành viên CATFE Tân Phú",
+        "en": "Lily — CATFE Tân Phú resident"
+      },
+      "sex": "female",
+      "ageOnRoster": 10
+    },
+    {
+      "slug": "rainbow",
+      "name": "Rainbow",
+      "image": "members/tan-phu-rainbow.webp",
+      "breed": {
+        "vi": "Bicolor",
+        "en": "Bicolor"
+      },
+      "group": "british",
+      "personality": {
+        "vi": "Tròn như bông, hơi nhát.",
+        "en": "Round as a puff of fluff, and a little shy."
+      },
+      "imageAlt": {
+        "vi": "Rainbow — thành viên CATFE Tân Phú",
+        "en": "Rainbow — CATFE Tân Phú resident"
+      },
+      "sex": "male"
+    },
+    {
+      "slug": "tom",
+      "name": "Tom",
+      "image": "members/tan-phu-tom.webp",
+      "breed": {
+        "vi": "Anh lông ngắn",
+        "en": "British Shorthair"
+      },
+      "group": "british",
+      "personality": {
+        "vi": "Khờ khạo, hay “phán xét”. Khi quen thì siêu quấn.",
+        "en": "A little goofy, with a judging look. Very affectionate once he knows you."
+      },
+      "imageAlt": {
+        "vi": "Tom — thành viên CATFE Tân Phú",
+        "en": "Tom — CATFE Tân Phú resident"
+      },
+      "sex": "male"
+    },
+    {
+      "slug": "goblin",
+      "name": "Goblin",
+      "image": "members/tan-phu-goblin.webp",
+      "breed": {
+        "vi": "Anh lông ngắn",
+        "en": "British Shorthair"
+      },
+      "group": "british",
+      "personality": {
+        "vi": "Ham ăn, thích trốn việc.",
+        "en": "Loves food. Rather less keen on doing any work."
+      },
+      "imageAlt": {
+        "vi": "Goblin — thành viên CATFE Tân Phú",
+        "en": "Goblin — CATFE Tân Phú resident"
+      },
+      "sex": "male"
+    },
+    {
+      "slug": "judy",
+      "name": "Judy",
+      "image": "members/tan-phu-judy.webp",
+      "breed": {
+        "vi": "Silver",
+        "en": "Silver"
+      },
+      "group": "british",
+      "personality": {
+        "vi": "Một cục bông mềm mại, dễ thương.",
+        "en": "A sweet, soft little ball of fluff."
+      },
+      "imageAlt": {
+        "vi": "Judy — thành viên CATFE Tân Phú",
+        "en": "Judy — CATFE Tân Phú resident"
+      },
+      "sex": "female"
+    },
+    {
+      "slug": "dau-calico",
+      "name": "Đậu",
+      "image": "members/tan-phu-dau-calico.webp",
+      "breed": {
+        "vi": "Anh lông ngắn",
+        "en": "British Shorthair"
+      },
+      "group": "british",
+      "personality": {
+        "vi": "Công chúa mặt quạo, thật ra rất hiền.",
+        "en": "A princess with a grumpy face who is actually very gentle."
+      },
+      "imageAlt": {
+        "vi": "Đậu — thành viên CATFE Tân Phú",
+        "en": "Đậu — CATFE Tân Phú resident"
+      },
+      "sex": "female"
+    },
+    {
+      "slug": "shi",
+      "name": "Shi",
+      "image": "members/tan-phu-shi.webp",
+      "breed": {
+        "vi": "Scottish Fold",
+        "en": "Scottish Fold"
+      },
+      "group": "scottish",
+      "personality": {
+        "vi": "Thích uống nước vòi, thích nựng má. Có tật xấu tè bậy.",
+        "en": "Likes drinking from the tap and having his cheeks stroked. Has a habit of peeing where he shouldn’t."
+      },
+      "imageAlt": {
+        "vi": "Shi — thành viên CATFE Tân Phú",
+        "en": "Shi — CATFE Tân Phú resident"
+      },
+      "sex": "male"
+    },
+    {
+      "slug": "simon",
+      "name": "Simon",
+      "image": "members/tan-phu-simon.webp",
+      "breed": {
+        "vi": "Scottish Fold",
+        "en": "Scottish Fold"
+      },
+      "group": "scottish",
+      "personality": {
+        "vi": "Thân thiện, quấn người và thích được nựng má.",
+        "en": "Friendly, affectionate and fond of having his cheeks stroked."
+      },
+      "imageAlt": {
+        "vi": "Simon — thành viên CATFE Tân Phú",
+        "en": "Simon — CATFE Tân Phú resident"
+      },
+      "sex": "male"
+    },
+    {
+      "slug": "chin-chi",
+      "name": "Chin Chi",
+      "image": "members/tan-phu-chin-chi.webp",
+      "breed": {
+        "vi": "Sphynx",
+        "en": "Sphynx"
+      },
+      "group": "sphynx",
+      "personality": {
+        "vi": "Thích ngủ trên áo khoác, siêu quấn người. Một “diễn viên Hollywood” của nhà mèo.",
+        "en": "Loves sleeping on jackets and staying close to people. One of the café’s little “Hollywood actors”."
+      },
+      "imageAlt": {
+        "vi": "Chin Chi — thành viên CATFE Tân Phú",
+        "en": "Chin Chi — CATFE Tân Phú resident"
+      },
+      "sex": "female"
+    },
+    {
+      "slug": "chin-e",
+      "name": "Chin E",
+      "image": "members/tan-phu-chin-e.webp",
+      "breed": {
+        "vi": "Sphynx",
+        "en": "Sphynx"
+      },
+      "group": "sphynx",
+      "personality": {
+        "vi": "Cô nàng tinh quái của quán. Một “diễn viên Hollywood” rất biết làm trò.",
+        "en": "A mischievous little character. Another of the café’s “Hollywood actors”."
+      },
+      "imageAlt": {
+        "vi": "Chin E — thành viên CATFE Tân Phú",
+        "en": "Chin E — CATFE Tân Phú resident"
+      },
+      "sex": "female"
+    },
+    {
+      "slug": "benz",
+      "name": "Benz",
+      "image": "members/tan-phu-benz.webp",
+      "breed": {
+        "vi": "Bengal",
+        "en": "Bengal"
+      },
+      "group": "bengal",
+      "personality": {
+        "vi": "Nghịch, nhiều năng lượng. Thích chọc ghẹo các bạn mèo khác.",
+        "en": "Playful and full of energy. Likes teasing the other cats."
+      },
+      "imageAlt": {
+        "vi": "Benz — thành viên CATFE Tân Phú",
+        "en": "Benz — CATFE Tân Phú resident"
+      },
+      "sex": "male"
+    },
+    {
+      "slug": "bao-den",
+      "name": "Báo đen",
+      "image": "members/tan-phu-bao-den.webp",
+      "breed": {
+        "vi": "Bengal",
+        "en": "Bengal"
+      },
+      "group": "bengal",
+      "personality": {
+        "vi": "Siêu quậy, tinh nghịch và ham ăn. Nhận ra bé qua màu lông đậm.",
+        "en": "Mischievous, lively and food-loving. Look for the darker coat."
+      },
+      "imageAlt": {
+        "vi": "Báo đen — thành viên CATFE Tân Phú",
+        "en": "Báo đen — CATFE Tân Phú resident"
+      },
+      "sex": "male"
+    },
+    {
+      "slug": "bao-dom",
+      "name": "Báo đốm",
+      "image": "members/tan-phu-bao-dom.webp",
+      "breed": {
+        "vi": "Bengal",
+        "en": "Bengal"
+      },
+      "group": "bengal",
+      "personality": {
+        "vi": "Siêu quậy, tinh nghịch và ham ăn. Nhận ra bé qua màu lông sáng.",
+        "en": "Mischievous, lively and food-loving. Look for the lighter coat."
+      },
+      "imageAlt": {
+        "vi": "Báo đốm — thành viên CATFE Tân Phú",
+        "en": "Báo đốm — CATFE Tân Phú resident"
+      },
+      "sex": "male"
+    }
+  ],
+  "binh-tan": [
+    {
+      "slug": "bao-bao",
+      "name": "Bảo Bảo",
+      "image": "members/binh-tan-bao-bao.webp",
+      "breed": {
+        "vi": "Maine Coon",
+        "en": "Maine Coon"
+      },
+      "group": "maine-coon",
+      "personality": {
+        "vi": "Hiền nhưng có gương mặt cọc. Thích được bế.",
+        "en": "Gentle behind a grumpy-looking face. Likes being held."
+      },
+      "imageAlt": {
+        "vi": "Bảo Bảo — thành viên CATFE Bình Tân",
+        "en": "Bảo Bảo — CATFE Bình Tân resident"
+      },
+      "birthYear": 2017
+    },
+    {
+      "slug": "tachi",
+      "name": "Tachi",
+      "image": "members/binh-tan-tachi.webp",
+      "breed": {
+        "vi": "Anh lông ngắn",
+        "en": "British Shorthair"
+      },
+      "group": "british",
+      "personality": {
+        "vi": "Cô mèo đã cưu mang nhiều bé mèo con mất mẹ.",
+        "en": "A cat who has cared for many motherless kittens."
+      },
+      "imageAlt": {
+        "vi": "Tachi — thành viên CATFE Bình Tân",
+        "en": "Tachi — CATFE Bình Tân resident"
+      },
+      "birthYear": 2014
+    },
+    {
+      "slug": "na",
+      "name": "Na",
+      "image": "members/binh-tan-na.webp",
+      "breed": {
+        "vi": "Anh lông ngắn",
+        "en": "British Shorthair"
+      },
+      "group": "british",
+      "personality": {
+        "vi": "Vừa già vừa “xấu nết”, sẵn sàng cân những cuộc chiến tại quán.",
+        "en": "An older resident with plenty of attitude, always ready to hold their own."
+      },
+      "imageAlt": {
+        "vi": "Na — thành viên CATFE Bình Tân",
+        "en": "Na — CATFE Bình Tân resident"
+      },
+      "birthYear": 2011
+    },
+    {
+      "slug": "sabine",
+      "name": "Sabine",
+      "image": "members/binh-tan-sabine.webp",
+      "breed": {
+        "vi": "Anh lông dài",
+        "en": "British Longhair"
+      },
+      "group": "british",
+      "personality": {
+        "vi": "Sống như một pho tượng.",
+        "en": "Still as a statue."
+      },
+      "imageAlt": {
+        "vi": "Sabine — thành viên CATFE Bình Tân",
+        "en": "Sabine — CATFE Bình Tân resident"
+      },
+      "birthYear": 2016
+    },
+    {
+      "slug": "tun",
+      "name": "Tũn",
+      "image": "members/binh-tan-tun.webp",
+      "breed": {
+        "vi": "Munchkin",
+        "en": "Munchkin"
+      },
+      "group": "short-legs",
+      "personality": {
+        "vi": "Mập mạp và hay bị các bạn mèo khác trêu.",
+        "en": "A chubby little resident who is often teased by the other cats."
+      },
+      "imageAlt": {
+        "vi": "Tũn — thành viên CATFE Bình Tân",
+        "en": "Tũn — CATFE Bình Tân resident"
+      },
+      "birthYear": 2016
+    },
+    {
+      "slug": "tiger",
+      "name": "Tiger",
+      "image": "members/binh-tan-tiger.webp",
+      "breed": {
+        "vi": "Bengal",
+        "en": "Bengal"
+      },
+      "group": "bengal",
+      "personality": {
+        "vi": "Thích được ôm, quấn khách nhưng ghét nhân viên.",
+        "en": "Loves cuddles and stays close to guests, but is less fond of the staff."
+      },
+      "imageAlt": {
+        "vi": "Tiger — thành viên CATFE Bình Tân",
+        "en": "Tiger — CATFE Bình Tân resident"
+      },
+      "birthYear": 2021
+    },
+    {
+      "slug": "lion",
+      "name": "Lion",
+      "image": "members/binh-tan-lion.webp",
+      "breed": {
+        "vi": "Bengal",
+        "en": "Bengal"
+      },
+      "group": "bengal",
+      "personality": {
+        "vi": "Dịu dàng với khách và thích trêu các bạn mèo.",
+        "en": "Gentle with guests and fond of teasing the other cats."
+      },
+      "imageAlt": {
+        "vi": "Lion — thành viên CATFE Bình Tân",
+        "en": "Lion — CATFE Bình Tân resident"
+      },
+      "birthYear": 2022
+    },
+    {
+      "slug": "chincha",
+      "name": "Chincha",
+      "image": "members/binh-tan-chincha.webp",
+      "breed": {
+        "vi": "Sphynx",
+        "en": "Sphynx"
+      },
+      "group": "sphynx",
+      "personality": {
+        "vi": "“Best seller” của CATFE.",
+        "en": "CATFE’s little “best seller”."
+      },
+      "imageAlt": {
+        "vi": "Chincha — thành viên CATFE Bình Tân",
+        "en": "Chincha — CATFE Bình Tân resident"
+      },
+      "birthYear": 2021
+    },
+    {
+      "slug": "min",
+      "name": "Min",
+      "image": "members/binh-tan-min.webp",
+      "breed": {
+        "vi": "Scottish",
+        "en": "Scottish"
+      },
+      "group": "scottish",
+      "personality": {
+        "vi": "Ăn là đam mê, nhưng không thích bị chê mập.",
+        "en": "Food is a passion. Being called chubby? Less so."
+      },
+      "imageAlt": {
+        "vi": "Min — thành viên CATFE Bình Tân",
+        "en": "Min — CATFE Bình Tân resident"
+      },
+      "birthYear": 2023
+    },
+    {
+      "slug": "mang-cut",
+      "name": "Măng Cụt",
+      "image": "members/binh-tan-mang-cut.webp",
+      "breed": {
+        "vi": "Ba Tư",
+        "en": "Persian"
+      },
+      "group": "persian",
+      "personality": {
+        "vi": "Thích nước nhưng ghét đi tắm.",
+        "en": "Likes water. Baths are another matter."
+      },
+      "imageAlt": {
+        "vi": "Măng Cụt — thành viên CATFE Bình Tân",
+        "en": "Măng Cụt — CATFE Bình Tân resident"
+      },
+      "birthYear": 2021
+    },
+    {
+      "slug": "valu",
+      "name": "Valu",
+      "image": "members/binh-tan-valu.webp",
+      "breed": {
+        "vi": "Napoleon",
+        "en": "Napoleon"
+      },
+      "group": "short-legs",
+      "personality": {
+        "vi": "Biết nhõng nhẽo và ghét bạn Aka.",
+        "en": "Knows how to ask for attention. Not a fan of Aka."
+      },
+      "imageAlt": {
+        "vi": "Valu — thành viên CATFE Bình Tân",
+        "en": "Valu — CATFE Bình Tân resident"
+      },
+      "birthYear": 2022
+    },
+    {
+      "slug": "quyt",
+      "name": "Quýt",
+      "image": "members/binh-tan-quyt.webp",
+      "breed": {
+        "vi": "Napoleon",
+        "en": "Napoleon"
+      },
+      "group": "short-legs",
+      "personality": {
+        "vi": "Đủ các yếu tố trở thành bé mèo đáng yêu nhất quán.",
+        "en": "Has every ingredient for being the café’s most adorable cat."
+      },
+      "imageAlt": {
+        "vi": "Quýt — thành viên CATFE Bình Tân",
+        "en": "Quýt — CATFE Bình Tân resident"
+      },
+      "birthYear": 2023
+    },
+    {
+      "slug": "tini",
+      "name": "Tini",
+      "image": "members/binh-tan-tini.webp",
+      "breed": {
+        "vi": "Napoleon",
+        "en": "Napoleon"
+      },
+      "group": "short-legs",
+      "personality": {
+        "vi": "Nhút nhát và chỉ chung tình với Quýt.",
+        "en": "Shy, with eyes only for Quýt."
+      },
+      "imageAlt": {
+        "vi": "Tini — thành viên CATFE Bình Tân",
+        "en": "Tini — CATFE Bình Tân resident"
+      },
+      "birthYear": 2022
+    },
+    {
+      "slug": "chanh-day",
+      "name": "Chanh Dây",
+      "image": "members/binh-tan-chanh-day.webp",
+      "breed": {
+        "vi": "Napoleon",
+        "en": "Napoleon"
+      },
+      "group": "short-legs",
+      "personality": {
+        "vi": "Nói nhiều và đanh đá.",
+        "en": "Chatty, with plenty of sass."
+      },
+      "imageAlt": {
+        "vi": "Chanh Dây — thành viên CATFE Bình Tân",
+        "en": "Chanh Dây — CATFE Bình Tân resident"
+      },
+      "birthYear": 2021
+    },
+    {
+      "slug": "aka",
+      "name": "Aka",
+      "image": "members/binh-tan-aka.webp",
+      "breed": {
+        "vi": "Anh lông dài",
+        "en": "British Longhair"
+      },
+      "group": "british",
+      "personality": {
+        "vi": "Cạnh tranh nhan sắc với bạn Xoài.",
+        "en": "Competes with Xoài for the beauty crown."
+      },
+      "imageAlt": {
+        "vi": "Aka — thành viên CATFE Bình Tân",
+        "en": "Aka — CATFE Bình Tân resident"
+      },
+      "birthYear": 2023
+    },
+    {
+      "slug": "bi-ngu",
+      "name": "Bi Ngu",
+      "image": "members/binh-tan-bi-ngu.webp",
+      "breed": {
+        "vi": "Maine Coon",
+        "en": "Maine Coon"
+      },
+      "group": "maine-coon",
+      "personality": {
+        "vi": "Chú mèo cọc tính, thường xuyên trốn việc.",
+        "en": "A grumpy little character who regularly dodges his duties."
+      },
+      "imageAlt": {
+        "vi": "Bi Ngu — thành viên CATFE Bình Tân",
+        "en": "Bi Ngu — CATFE Bình Tân resident"
+      },
+      "birthYear": 2020
+    },
+    {
+      "slug": "money",
+      "name": "Money",
+      "image": "members/binh-tan-money.webp",
+      "breed": {
+        "vi": "Maine Coon",
+        "en": "Maine Coon"
+      },
+      "group": "maine-coon",
+      "personality": {
+        "vi": "Rất hiền, nhưng khi đói sẽ đánh bạn để được ăn.",
+        "en": "Very gentle, but may give you a swat when hungry."
+      },
+      "imageAlt": {
+        "vi": "Money — thành viên CATFE Bình Tân",
+        "en": "Money — CATFE Bình Tân resident"
+      },
+      "birthYear": 2019
+    },
+    {
+      "slug": "lac",
+      "name": "Lạc",
+      "image": "members/binh-tan-lac.webp",
+      "breed": {
+        "vi": "Munchkin",
+        "en": "Munchkin"
+      },
+      "group": "short-legs",
+      "personality": {
+        "vi": "Hay hóng chuyện, thích đứng bằng hai chân.",
+        "en": "Likes keeping up with the gossip and standing on two legs."
+      },
+      "imageAlt": {
+        "vi": "Lạc — thành viên CATFE Bình Tân",
+        "en": "Lạc — CATFE Bình Tân resident"
+      },
+      "birthYear": 2023
+    },
+    {
+      "slug": "xoai",
+      "name": "Xoài",
+      "image": "members/binh-tan-xoai.webp",
+      "breed": {
+        "vi": "Maine Coon",
+        "en": "Maine Coon"
+      },
+      "group": "maine-coon",
+      "personality": {
+        "vi": "Hotboy của quán, không từ chối bất kỳ món ăn gì.",
+        "en": "The café’s heartthrob. Never turns down a bite to eat."
+      },
+      "imageAlt": {
+        "vi": "Xoài — thành viên CATFE Bình Tân",
+        "en": "Xoài — CATFE Bình Tân resident"
+      },
+      "birthYear": 2023
+    },
+    {
+      "slug": "vung",
+      "name": "Vừng",
+      "image": "members/binh-tan-vung.webp",
+      "breed": {
+        "vi": "Maine Coon",
+        "en": "Maine Coon"
+      },
+      "group": "maine-coon",
+      "personality": {
+        "vi": "Là bé gái nhưng cá tính mạnh, thích chơi đô vật.",
+        "en": "A girl with a bold personality who loves a wrestling match."
+      },
+      "imageAlt": {
+        "vi": "Vừng — thành viên CATFE Bình Tân",
+        "en": "Vừng — CATFE Bình Tân resident"
+      },
+      "birthYear": 2023
+    },
+    {
+      "slug": "mitu",
+      "name": "Mitu",
+      "image": "members/binh-tan-mitu.webp",
+      "breed": {
+        "vi": "Anh lông ngắn",
+        "en": "British Shorthair"
+      },
+      "group": "british",
+      "personality": {
+        "vi": "Có thể ăn hạt đến khi đại dương cạn nước.",
+        "en": "Could eat kibble until the ocean runs dry."
+      },
+      "imageAlt": {
+        "vi": "Mitu — thành viên CATFE Bình Tân",
+        "en": "Mitu — CATFE Bình Tân resident"
+      },
+      "birthYear": 2021
+    },
+    {
+      "slug": "lity",
+      "name": "Lity",
+      "image": "members/binh-tan-lity.webp",
+      "breed": {
+        "vi": "Anh lông dài",
+        "en": "British Longhair"
+      },
+      "group": "british",
+      "personality": {
+        "vi": "Thích nằm ngửa bụng, tính cách thất thường.",
+        "en": "Likes lying belly-up and has a changeable mood."
+      },
+      "imageAlt": {
+        "vi": "Lity — thành viên CATFE Bình Tân",
+        "en": "Lity — CATFE Bình Tân resident"
+      },
+      "birthYear": 2021
+    },
+    {
+      "slug": "so-ri",
+      "name": "Sơ Ri",
+      "image": "members/binh-tan-so-ri.webp",
+      "breed": {
+        "vi": "Scottish Fold",
+        "en": "Scottish Fold"
+      },
+      "group": "scottish",
+      "personality": {
+        "vi": "Rất ghét mèo nhưng vẫn yêu khách.",
+        "en": "Not keen on other cats, but loves the guests."
+      },
+      "imageAlt": {
+        "vi": "Sơ Ri — thành viên CATFE Bình Tân",
+        "en": "Sơ Ri — CATFE Bình Tân resident"
+      },
+      "birthYear": 2023
+    },
+    {
+      "slug": "pizza",
+      "name": "Pizza",
+      "image": "members/binh-tan-pizza.webp",
+      "breed": {
+        "vi": "Anh lông ngắn",
+        "en": "British Shorthair"
+      },
+      "group": "british",
+      "personality": {
+        "vi": "Rất ham chơi, siêu quậy.",
+        "en": "Loves to play. A truly mischievous little resident."
+      },
+      "imageAlt": {
+        "vi": "Pizza — thành viên CATFE Bình Tân",
+        "en": "Pizza — CATFE Bình Tân resident"
+      },
+      "birthYear": 2025
+    },
+    {
+      "slug": "cheese",
+      "name": "Cheese",
+      "image": "members/binh-tan-cheese.webp",
+      "breed": {
+        "vi": "Golden",
+        "en": "Golden"
+      },
+      "group": "british",
+      "personality": {
+        "vi": "Nhẹ nhàng như một cậu ấm.",
+        "en": "Gentle, like a pampered little gentleman."
+      },
+      "imageAlt": {
+        "vi": "Cheese — thành viên CATFE Bình Tân",
+        "en": "Cheese — CATFE Bình Tân resident"
+      },
+      "birthYear": 2025
+    }
+  ],
+  "estella": []
+}

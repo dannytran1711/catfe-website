@@ -1,0 +1,53 @@
+[
+  {
+    "id": "seed-chiec-ao-vit",
+    "slug": "chiec-ao-vit",
+    "content": {
+      "titleVi": "Mèo đây. Vịt là áo thôi.",
+      "titleEn": "Still a cat. Just dressed as a duck.",
+      "excerptVi": "Một chiếc áo vàng. Một gương mặt rất mèo. Có những khoảnh khắc dễ thương chẳng cần kể thêm.",
+      "excerptEn": "A yellow outfit. An unmistakably feline face. Some little moments speak for themselves.",
+      "bodyVi": "Trong bức ảnh từ CATFE, bộ đồ vịt màu vàng chiếm gần hết khung hình. Nhưng thứ khiến mình dừng lại là gương mặt ló ra phía dưới: vẫn rất mèo.\n\nMột nét mặt, một dáng ngồi, một lần ngước nhìn. Đôi khi điều mình nhớ sau chuyến ghé lại nhỏ xíu như vậy.\n\nẢnh kể một khoảnh khắc. Lần ghé của bạn sẽ có nhịp riêng — cứ ngồi lại, quan sát và làm quen với các bé theo hướng dẫn của nhân viên.",
+      "bodyEn": "In this CATFE photograph, a yellow duck outfit almost fills the frame. Then you notice the little face underneath: unmistakably a cat.\n\nAn expression, a way of sitting, a glance upward. Sometimes the thing you remember from a visit is that small.\n\nA photograph holds one moment. Your visit will have its own rhythm. Settle in, observe and follow the team’s guidance as you meet the cats.",
+      "cover": "/assets/mischief.jpg",
+      "altVi": "Mèo đây. Vịt là áo thôi.",
+      "altEn": "Still a cat. Just dressed as a duck.",
+      "category": "moments",
+      "branch": "all"
+    }
+  },
+  {
+    "id": "seed-mot-loi-chao-cham",
+    "slug": "mot-loi-chao-cham",
+    "content": {
+      "titleVi": "Có khi, ngồi cạnh đã là làm quen.",
+      "titleEn": "Sometimes, sitting nearby is a hello.",
+      "excerptVi": "Không phải lần làm quen nào cũng bắt đầu bằng một cái bế. Chừa một chút khoảng trống cho bé chọn.",
+      "excerptEn": "A connection needn’t begin with a cuddle. Leave a little space for the cat to choose.",
+      "bodyVi": "Một bé mèo nằm gần chỗ ngồi. Bạn nhìn sang. Bé nhìn lại, hoặc tiếp tục ngủ. Cả hai đều có thể là một phần bình thường của buổi ghé.\n\nỞ CATFE, màu vòng cổ giúp khách hiểu nhóm tuổi và những bé cần được tiếp cận nhẹ nhàng hơn. Nhân viên sẽ giúp bạn đọc những dấu hiệu đó.\n\nBạn có thể chơi theo hướng dẫn, ngồi yên hoặc chỉ quan sát. Điều đáng nhớ không nhất thiết phải là một cái ôm — mà là lúc bé thấy đủ thoải mái để ở gần.",
+      "bodyEn": "A cat rests near your seat. You glance over. They might look back, or carry on sleeping. Either can be part of an ordinary café visit.\n\nAt CATFE, collar colours help visitors understand age groups and cats who need a gentler approach. The team can help you interpret those cues.\n\nYou can play with guidance, sit quietly or simply watch. A memorable moment needn’t be an embrace. It can be a cat feeling comfortable nearby.",
+      "cover": "/assets/together.jpg",
+      "altVi": "Có khi, ngồi cạnh đã là làm quen.",
+      "altEn": "Sometimes, sitting nearby is a hello.",
+      "category": "visits",
+      "branch": "all"
+    }
+  },
+  {
+    "id": "seed-mot-mai-nha-lau-dai",
+    "slug": "mot-mai-nha-lau-dai",
+    "content": {
+      "titleVi": "Một mái nhà, cả lúc đã già.",
+      "titleEn": "A home, through the quieter years.",
+      "excerptVi": "Có những bé đã lớn lên cùng CATFE. Việc chăm sóc tiếp tục, cả khi nhịp sống của bé chậm lại.",
+      "excerptEn": "Some cats have grown up with CATFE. Their care continues as their pace becomes gentler.",
+      "bodyVi": "CATFE bắt đầu từ năm 2016. Theo câu chuyện CATFE công bố, có những thành viên đã lớn lên và già đi cùng ngôi nhà này.\n\nTrong thông báo đóng chi nhánh Quận 1, CATFE nói về việc tiếp tục chăm sóc những bé lớn tuổi đến cuối đời. Một địa điểm có thể thay đổi; trách nhiệm với các bé vẫn tiếp tục.\n\nVới khách ghé chơi, thương mèo cũng có thể là nhẹ tay hơn, nói khẽ hơn và để một giấc ngủ được trọn vẹn. Mỗi giai đoạn sống cần một cách quan tâm khác nhau.",
+      "bodyEn": "CATFE began in 2016. In its published story, CATFE describes residents who have grown up and grown older within this home.\n\nIn its District 1 closure announcement, CATFE describes continuing to care for its older cats throughout their lives. A location may change; that responsibility continues.\n\nFor visitors, care can mean gentler hands, quieter voices and leaving a nap undisturbed. Every stage of a cat’s life deserves a thoughtful approach.",
+      "cover": "/assets/hero.jpg",
+      "altVi": "Một mái nhà, cả lúc đã già.",
+      "altEn": "A home, through the quieter years.",
+      "category": "care",
+      "branch": "all"
+    }
+  }
+]
